@@ -1,2 +1,2 @@
 # nomad_moviepg
-3.5까지함
+state1할차례
