@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './props.module.css';
 
-const Btn = ({ text, onClick, fontSize = 20, thic }) => {
+const Btn = ({ text, onClick, fontSize = 20, thic, className }) => {
   console.log(text);
   return (
     <button
+      className={className}
       style={{
         backgroundColor: 'pink',
-        color: '#444',
         border: 'none',
         padding: '5px 10px',
         borderRadius: '5px',
@@ -39,6 +40,7 @@ const Props = () => {
   return (
     <div>
       <Btn text={value} fontSize={16} onClick={changeValue} thic={true} />
+      <Btn text={value} className={styles.btn} />
       <MemorizedBtn text={'Continue'} />
       {/* <ConfirmBtn /> */}
     </div>
