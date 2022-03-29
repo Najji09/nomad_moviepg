@@ -1,2 +1,3 @@
 # nomad_moviepg
-state1할차례
+props할 차례
+https://nomadcoders.co/react-for-beginners/lectures/3275
