@@ -5,6 +5,11 @@
     "unit2": "Hours",
     "unitConvert": 60
   },
+  {
+    "unit1": "Hours",
+    "unit2": "Days",
+    "unitConvert": 24
+  },
 
   {
     "unit1": "Miles",
@@ -20,5 +25,10 @@
     "unit1": "Pound",
     "unit2": "Killogram",
     "unitConvert": 2.2
+  },
+  {
+    "unit1": "Gallon",
+    "unit2": "Litter",
+    "unitConvert": 3.8
   }
 ]
