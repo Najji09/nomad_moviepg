@@ -1,6 +1,12 @@
 import Movie from '../Components/Movie';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+const StyledBG = styled.div`
+  background-color: #eee;
+  padding-top: 20px;
+  width: 100%;
+`;
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -23,7 +29,7 @@ const Home = () => {
   }, []);
   const MovieArray = () => {
     return (
-      <div>
+      <StyledBG>
         {movies.map((movie) => (
           <Movie
             key={movie.id}
@@ -34,11 +40,13 @@ const Home = () => {
             genres={movie.genres}
           />
         ))}
-      </div>
+      </StyledBG>
     );
   };
   console.log(movies);
-  return <div>{loading ? <h1>loading</h1> : <MovieArray />}</div>;
+  return (
+    <div>{loading ? <h1 className="loading">Loading</h1> : <MovieArray />}</div>
+  );
 };
 
 export default Home;

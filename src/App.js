@@ -11,6 +11,7 @@
 import Home from './Routes/Home';
 import Detail from './Routes/Detail';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 function App() {
   // const [basics, showBasics] = useState(false);
