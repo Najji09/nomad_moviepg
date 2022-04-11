@@ -40,7 +40,7 @@ const Movie = ({ id, title, medium_cover_image, genres, summary }) => {
       </h2>
       <div>
         <img src={medium_cover_image} alt={title} />
-        <p>{summary}</p>
+        <p>{summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}</p>
       </div>
       <ul>
         <li>Genres : </li>
