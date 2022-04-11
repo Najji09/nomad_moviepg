@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nomad_moviepg/static/css/main.7ef54e42.css",
+    "main.js": "/nomad_moviepg/static/js/main.af288b4c.js",
+    "index.html": "/nomad_moviepg/index.html",
+    "main.7ef54e42.css.map": "/nomad_moviepg/static/css/main.7ef54e42.css.map",
+    "main.af288b4c.js.map": "/nomad_moviepg/static/js/main.af288b4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ef54e42.css",
+    "static/js/main.af288b4c.js"
+  ]
+}
